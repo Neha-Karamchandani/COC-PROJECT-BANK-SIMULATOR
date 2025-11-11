@@ -1,19 +1,19 @@
-# 🏦 Bank Queue (Poisson) Simulator
+# Bank Queue (Poisson) Simulator
 
-## 📝 Short Description
+## Short Description
 This is a C program that simulates the operation of a bank queue where a customer arrives randomly, using "Poisson Distribution", and is served by one or more tellers.
 
 ---
 
-## 🌍 Real world issue it represents
+##  Real world issue it represents
 Customers arrive randomly and if no teller is free, then the customers have to wait in a queue.  
 This project is the computer simulation of this process.
 
 ---
 
-## 🧠 Concepts used
+## Concepts used
 
-### 🔹 Of C
+###  Of C
 1. Structures (struct) - to represent customers and queues  
 2. Pointers - to link customers dynamically  
 3. Dynamic Memory (malloc()) - to create new customers as they arrive  
@@ -23,32 +23,32 @@ This project is the computer simulation of this process.
 
 ---
 
-### 🔹 Of Mathematics
+###  Of Mathematics
 1. Poisson Distribution - to model random arrival interval  
 2. Central Tendencies - Mean, Median, Mode  
 3. Standard Deviation  
 
 ---
 
-## ⚙️ HOW TO COMPILE
+## HOW TO COMPILE
 gcc coc-bank-simulator-poisson.c -o bankqueuesimulator  
 Open the terminal and type this command.
 
 ---
 
-## ▶️ HOW TO RUN
+##  HOW TO RUN
 After compiling the program, run the program by typing:  
 ./bankqueuesimulator  
 
 ---
 
-### 🧩 You will then be prompted to enter inputs
+###  You will then be prompted to enter inputs
 Enter average arrivals per minute (lambda): 1  
 Enter number of tellers: 3  
 
 ---
 
-### 📊 The output you will receive
+###  The output you will receive
 Simulation Report  
 Lambda (arrivals/min): 1.00  
 Tellers: 3  
@@ -61,7 +61,7 @@ Maximum wait time: 11 minutes
 
 ---
 
-## ✨ Summary
+##  Summary
 This simulation represents how customers arrive and wait in a bank queue, applying both C programming and mathematical statistics.  
 It helps in understanding how arrival rate (λ), number of tellers, and service time affect:  
 - Average waiting time  
